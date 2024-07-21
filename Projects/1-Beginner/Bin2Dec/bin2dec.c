@@ -46,7 +46,7 @@ int main(int argc, char **argv)
     prompt();
 
     char binary[BUFF_SIZE] = {0};
-    while (scanf("%s", binary)) {
+    while (scanf("%s", binary) == 1) {
 
         if (strcmp(binary, "q") == 0) {
             break;
